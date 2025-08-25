@@ -1,0 +1,898 @@
+fileFormatVersion: 2
+guid: 4117ea33cdefa444fbd0e6a89ae0b7f4
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Armor_MT
+    second: {fileID: 2100000, guid: 805c1d641ec8c764daba2ac80d997d9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_MT
+    second: {fileID: 2100000, guid: b2af8f70222a2d648bd57d86946aea06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clothes_MT
+    second: {fileID: 2100000, guid: 43b04d83cbcf3ff429ecf6d58889d42c, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Armor MT_Base_color
+    second: {fileID: 2800000, guid: a837cec285f1e19418bd6d11ee936031, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Body MT_Base_color
+    second: {fileID: 2800000, guid: e73271d33a64fc14498ba782ef814588, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Clothes MT_Base_color
+    second: {fileID: 2800000, guid: c15f6623d7e24c24ab9c952374ce43ad, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Vamp_Surv_Main_Character_Mesh:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Vamp_Surv_Main_Character_Mesh:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: T-Pose(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:Armor_low
+      parentName: T-Pose(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:Clothes_low
+      parentName: T-Pose(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:Body_low
+      parentName: T-Pose(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:Hips
+      parentName: T-Pose(Clone)
+      position: {x: 0.0001222402, y: 0.9603243, z: -0.011192037}
+      rotation: {x: 0.00013917498, y: 0.000037842514, z: -0.0010086072, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftUpLeg
+      parentName: Vamp_Surv_Main_Character_Mesh:Hips
+      position: {x: -0.09255386, y: -0.06012741, z: -0.0021940875}
+      rotation: {x: -0.00531828, y: 0.022166567, z: 0.99973917, w: 0.0014080822}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftLeg
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftUpLeg
+      position: {x: 0.0000000022744187, y: 0.39930493, z: -0.0000000013048758}
+      rotation: {x: -0.059820928, y: -0.00026711414, z: 0.0033678832, w: 0.99820346}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftFoot
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftLeg
+      position: {x: -0.0000000017674273, y: 0.3930931, z: -4.5709412e-11}
+      rotation: {x: 0.47680083, y: -0.028211363, z: -0.060874738, w: 0.876447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftToeBase
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftFoot
+      position: {x: 7.8084966e-10, y: 0.17655319, z: -0.0000000013832974}
+      rotation: {x: 0.29214063, y: 0.2231119, z: -0.070287995, w: 0.92732656}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftToe_End
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftToeBase
+      position: {x: 2.4069063e-10, y: 0.065754734, z: 1.2684336e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightUpLeg
+      parentName: Vamp_Surv_Main_Character_Mesh:Hips
+      position: {x: 0.09255386, y: -0.06012741, z: 0.02334862}
+      rotation: {x: 0.0010637245, y: -0.01707927, z: 0.99984723, w: -0.0035628257}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightLeg
+      parentName: Vamp_Surv_Main_Character_Mesh:RightUpLeg
+      position: {x: 0.0000000016029136, y: 0.39817435, z: -1.223936e-10}
+      rotation: {x: -0.01320915, y: 0.00017628515, z: -0.0039622406, w: 0.99990493}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightFoot
+      parentName: Vamp_Surv_Main_Character_Mesh:RightLeg
+      position: {x: 0.000000003071905, y: 0.39311957, z: -6.534425e-11}
+      rotation: {x: 0.48325396, y: 0.026362758, z: 0.062179253, w: 0.87287134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightToeBase
+      parentName: Vamp_Surv_Main_Character_Mesh:RightFoot
+      position: {x: 9.398284e-10, y: 0.18379888, z: -0.0000000068856436}
+      rotation: {x: 0.279875, y: -0.21645315, z: 0.064925924, w: 0.93306094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightToe_End
+      parentName: Vamp_Surv_Main_Character_Mesh:RightToeBase
+      position: {x: -1.0329456e-10, y: 0.07073019, z: -1.1008884e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:Spine
+      parentName: Vamp_Surv_Main_Character_Mesh:Hips
+      position: {x: -0, y: 0.108099595, z: 0.000631386}
+      rotation: {x: 0.0027811762, y: -0.000034897705, z: 0.0010087135, w: 0.99999565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:Spine1
+      parentName: Vamp_Surv_Main_Character_Mesh:Spine
+      position: {x: -0, y: 0.12611833, z: -1.586102e-11}
+      rotation: {x: 2.6372255e-26, y: -3.8648308e-14, z: 6.823651e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:Spine2
+      parentName: Vamp_Surv_Main_Character_Mesh:Spine1
+      position: {x: -0, y: 0.14413515, z: 1.9403217e-11}
+      rotation: {x: 0, y: 0, z: 8.002205e-27, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:Neck
+      parentName: Vamp_Surv_Main_Character_Mesh:Spine2
+      position: {x: -0, y: 0.16215211, z: -0.0000000013178351}
+      rotation: {x: -0.0029203577, y: 9.882185e-19, z: 1.4118894e-17, w: 0.99999577}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:Head
+      parentName: Vamp_Surv_Main_Character_Mesh:Neck
+      position: {x: -0, y: 0.024617003, z: 0.006109808}
+      rotation: {x: -8.6736174e-19, y: 0, z: -7.3080284e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:HeadTop_End
+      parentName: Vamp_Surv_Main_Character_Mesh:Head
+      position: {x: -0, y: 0.26698592, z: 0.066264465}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftShoulder
+      parentName: Vamp_Surv_Main_Character_Mesh:Spine2
+      position: {x: -0.06321321, y: 0.13922821, z: 0.0003263352}
+      rotation: {x: 0.57714194, y: -0.40960062, z: 0.57414097, w: 0.41169977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftArm
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftShoulder
+      position: {x: -2.4058573e-11, y: 0.12914893, z: -0.0000000023160358}
+      rotation: {x: -0.16500014, y: 0.00008889297, z: 0.0026101647, w: 0.9862901}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftForeArm
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftArm
+      position: {x: 3.1411602e-11, y: 0.254375, z: 4.690727e-10}
+      rotation: {x: 0.0000000026249478, y: 0.011343867, z: 0.000000021285926, w: 0.9999357}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHand
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftForeArm
+      position: {x: -4.155742e-12, y: 0.24741843, z: 1.2616197e-10}
+      rotation: {x: 0.008268452, y: -0.0035967326, z: 0.040841676, w: 0.99912494}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandThumb1
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHand
+      position: {x: 0.027463367, y: 0.037708852, z: 0.012070424}
+      rotation: {x: 0.059111126, y: -0.0064621354, z: -0.4140378, w: 0.90831536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandThumb2
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandThumb1
+      position: {x: -0.002286108, y: 0.03848092, z: 3.5807318e-10}
+      rotation: {x: 0.00009698486, y: -0.0028717518, z: 0.025630409, w: 0.99966735}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandThumb3
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandThumb2
+      position: {x: -0.00029189113, y: 0.036180597, z: 7.733212e-10}
+      rotation: {x: 0.000002276265, y: 0.000053093154, z: 0.05016622, w: 0.9987409}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandThumb4
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandThumb3
+      position: {x: 0.0025780008, y: 0.02785004, z: -7.813466e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandIndex1
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHand
+      position: {x: 0.035252836, y: 0.11590731, z: -0.00063212204}
+      rotation: {x: -0.008535587, y: -0.0031818596, z: -0.043379717, w: 0.9990172}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandIndex2
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandIndex1
+      position: {x: -0.00016069387, y: 0.030992972, z: 6.524217e-10}
+      rotation: {x: -0.00000032745234, y: -0.000084230094, z: 0.004333111, w: 0.99999064}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandIndex3
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandIndex2
+      position: {x: 0.00010012596, y: 0.028804645, z: 2.0141897e-11}
+      rotation: {x: -0.0000000537048, y: -0.000022981485, z: -0.0005290831, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandIndex4
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandIndex3
+      position: {x: 0.000060569062, y: 0.025274707, z: 5.021917e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandRing1
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHand
+      position: {x: -0.012607095, y: 0.11911677, z: -0.0013919162}
+      rotation: {x: -0.008376876, y: 0.0008975347, z: -0.038533237, w: 0.9992218}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandRing2
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandRing1
+      position: {x: 0.00013713329, y: 0.029943435, z: 4.3015033e-10}
+      rotation: {x: 0.00000011329837, y: -0.000080928854, z: -0.0052009383, w: 0.99998647}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandRing3
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandRing2
+      position: {x: -0.00016933675, y: 0.029006023, z: 1.8186198e-10}
+      rotation: {x: -0.000000833899, y: 0.00020183918, z: 0.0035441164, w: 0.99999374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandRing4
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandRing3
+      position: {x: 0.000032203487, y: 0.025365379, z: -4.4885154e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandPinky1
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHand
+      position: {x: -0.032490287, y: 0.10824467, z: -0.0013338211}
+      rotation: {x: -0.007497789, y: 0.02251922, z: -0.041192193, w: 0.9988693}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandPinky2
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandPinky1
+      position: {x: -0.000010329517, y: 0.024855096, z: -7.3878537e-10}
+      rotation: {x: 0.00000085277196, y: -0.00022252064, z: -0.003475439, w: 0.999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandPinky3
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandPinky2
+      position: {x: -0.00015115146, y: 0.020535324, z: -5.519811e-10}
+      rotation: {x: -0.00000074934127, y: -0.00028037388, z: 0.009252598, w: 0.99995714}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandPinky4
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandPinky3
+      position: {x: 0.00016147977, y: 0.014435893, z: 2.4853647e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandMiddle1
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHand
+      position: {x: 0.009844542, y: 0.120299935, z: -0.0020295507}
+      rotation: {x: -0.008265688, y: 0.0036366882, z: -0.040559046, w: 0.9991363}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandMiddle2
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandMiddle1
+      position: {x: 0.000018571336, y: 0.03352092, z: -4.464306e-10}
+      rotation: {x: -0.0000001648638, y: 0.00001183137, z: -0.00040769574, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandMiddle3
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandMiddle2
+      position: {x: -0.0000075016496, y: 0.032206293, z: 0.0000000019242474}
+      rotation: {x: -0.00000043527774, y: -0.0000019523072, z: -0.00008270143, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:LeftHandMiddle4
+      parentName: Vamp_Surv_Main_Character_Mesh:LeftHandMiddle3
+      position: {x: -0.000011068455, y: 0.026583582, z: 0.0000000012300052}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightShoulder
+      parentName: Vamp_Surv_Main_Character_Mesh:Spine2
+      position: {x: 0.06321321, y: 0.13922596, z: -0.000058537924}
+      rotation: {x: -0.57535285, y: -0.4108424, z: 0.5760004, w: -0.4103673}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightArm
+      parentName: Vamp_Surv_Main_Character_Mesh:RightShoulder
+      position: {x: 1.0060263e-11, y: 0.12914893, z: -0.0000000023161288}
+      rotation: {x: -0.1650195, y: -0.0010710197, z: 0.0007547853, w: 0.98628944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightForeArm
+      parentName: Vamp_Surv_Main_Character_Mesh:RightArm
+      position: {x: 9.629666e-11, y: 0.25438353, z: -0.000000002982048}
+      rotation: {x: -0.00000048290747, y: -0.010561594, z: 0.00000048560076, w: 0.99994427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHand
+      parentName: Vamp_Surv_Main_Character_Mesh:RightForeArm
+      position: {x: 6.454356e-10, y: 0.24702038, z: -5.4313884e-12}
+      rotation: {x: 0.0047511295, y: 0.006810528, z: -0.03942462, w: 0.99918807}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandThumb1
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHand
+      position: {x: -0.028331432, y: 0.04086892, z: 0.012976466}
+      rotation: {x: 0.06511815, y: -0.0038391983, z: 0.37722084, w: 0.92382324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandThumb2
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandThumb1
+      position: {x: -0.0007093498, y: 0.041108914, z: 5.971401e-11}
+      rotation: {x: 0.00017127328, y: -0.0038174132, z: -0.02747999, w: 0.9996151}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandThumb3
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandThumb2
+      position: {x: -0.0025399167, y: 0.0351131, z: -9.683117e-10}
+      rotation: {x: 0.0000040756563, y: 0.00018330447, z: 0.09276303, w: 0.9956882}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandThumb4
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandThumb3
+      position: {x: 0.003249262, y: 0.02848182, z: -9.1714863e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandPinky1
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHand
+      position: {x: 0.033100735, y: 0.112430625, z: -0.0007613805}
+      rotation: {x: -0.004376797, y: -0.015073514, z: 0.036257386, w: 0.99921924}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandPinky2
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandPinky1
+      position: {x: -0.00015873196, y: 0.02478122, z: -2.86324e-10}
+      rotation: {x: 0.000000043316405, y: 0.00005607363, z: 0.0068771704, w: 0.99997634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandPinky3
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandPinky2
+      position: {x: 0.00014390766, y: 0.019622965, z: -0.0000000015834405}
+      rotation: {x: -0.00000042186852, y: -0.000090767455, z: -0.0032298092, w: 0.9999948}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandPinky4
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandPinky3
+      position: {x: 0.000014823847, y: 0.017070416, z: 2.0532724e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandMiddle1
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHand
+      position: {x: -0.009707521, y: 0.12293251, z: -0.0012368441}
+      rotation: {x: -0.00495725, y: -0.0015602524, z: 0.03923584, w: 0.9992165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandMiddle2
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandMiddle1
+      position: {x: -0.000011251305, y: 0.033618137, z: -3.0077557e-10}
+      rotation: {x: -0.00000024929057, y: 0.00000059611915, z: 0.0003334731, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandMiddle3
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandMiddle2
+      position: {x: 0.000011032829, y: 0.032392472, z: -5.7430494e-10}
+      rotation: {x: -0.0000001192992, y: -0.0000066902485, z: -0.00016978382, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandMiddle4
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandMiddle3
+      position: {x: 0.00000021865435, y: 0.028254852, z: -5.4372407e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandRing1
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHand
+      position: {x: 0.012848467, y: 0.123922355, z: -0.0020563207}
+      rotation: {x: -0.004883349, y: -0.003232857, z: 0.03664059, w: 0.9993114}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandRing2
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandRing1
+      position: {x: -0.00016740712, y: 0.030152317, z: 2.7190936e-10}
+      rotation: {x: -0.00000036717674, y: -0.00012178678, z: 0.0044482974, w: 0.9999901}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandRing3
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandRing2
+      position: {x: 0.000094117546, y: 0.027993536, z: 3.312502e-10}
+      rotation: {x: -0.00000011831503, y: -0.000008652596, z: -0.00013104176, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandRing4
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandRing3
+      position: {x: 0.000073289564, y: 0.023581436, z: 3.6104636e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandIndex1
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHand
+      position: {x: -0.036241677, y: 0.12178805, z: -0.0009134549}
+      rotation: {x: -0.0051899557, y: 0.004493273, z: 0.04079151, w: 0.99914414}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandIndex2
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandIndex1
+      position: {x: 0.00008490745, y: 0.029845044, z: -3.60358e-10}
+      rotation: {x: -0.000000020224713, y: -0.00011234757, z: -0.004031675, w: 0.9999919}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandIndex3
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandIndex2
+      position: {x: -0.00015173975, y: 0.029144827, z: 3.4812528e-10}
+      rotation: {x: -0.00000012835399, y: 0.000110381174, z: 0.0040532816, w: 0.9999918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Vamp_Surv_Main_Character_Mesh:RightHandIndex4
+      parentName: Vamp_Surv_Main_Character_Mesh:RightHandIndex3
+      position: {x: 0.00006683215, y: 0.023171714, z: 3.1260014e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
