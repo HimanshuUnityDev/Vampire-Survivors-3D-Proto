@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be43fa95a948f71429eb8b79a070f054, type: 3}
+  m_Name: Lightning
+  m_EditorClassIdentifier: 
+  WeaponType: 1
+  stats:
+  - cooldown: 1
+    duration: 1
+    damage: 20
+    range: 0
+    Description: Damage Upgrade
+  - cooldown: 1
+    duration: 1
+    damage: 80
+    range: 0
+    Description: CollDown Upgrade
+  - cooldown: 1
+    duration: 1
+    damage: 120
+    range: 0
+    Description: Damage Pro Upgrade
+  - cooldown: 1
+    duration: 1
+    damage: 160
+    range: 0
+    Description: CollDown Pro Upgrade
+  - cooldown: 1
+    duration: 1
+    damage: 50
+    range: 0
+    Description: CollDown Pro Upgrade
+  BaseWeaponPrefab: {fileID: -2857703372826035224, guid: b7eb287fd2e7b034cb2d6ecd7ba3e7c5, type: 3}
+  WeaponLevel: 0
+  isChild: 1
+  WeaponName: Lightning
+  WeaponLogo: {fileID: 21300000, guid: c4421e9f3e385234fbdcf27eac26fd39, type: 3}
+  WeaponDescription: Strikes a random enemy with a bolt of lightning

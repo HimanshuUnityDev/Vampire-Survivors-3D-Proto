@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fd47514cff2bf441b3aaaf8adaec760, type: 3}
+  m_Name: Garlic
+  m_EditorClassIdentifier: 
+  WeaponType: 0
+  stats:
+  - cooldown: 1
+    duration: 1
+    damage: 20
+    range: 0
+    Description: Damage Upgrade
+  - cooldown: 1
+    duration: 1
+    damage: 50
+    range: 0
+    Description: CoolDown Upgrade
+  - cooldown: 0.5
+    duration: 1
+    damage: 70
+    range: 0
+    Description: Range Upgrade
+  - cooldown: 0.5
+    duration: 1
+    damage: 90
+    range: 0
+    Description: Damage Upgrade
+  - cooldown: 0.5
+    duration: 1
+    damage: 110
+    range: 0
+    Description: Damage Upgrade
+  - cooldown: 0.5
+    duration: 1
+    damage: 600
+    range: 0
+    Description: Damage Upgrade
+  BaseWeaponPrefab: {fileID: 3404906264413239231, guid: 5c9637028ba02714498942b5ce851d13, type: 3}
+  WeaponLevel: 0
+  isChild: 1
+  WeaponName: Garlic
+  WeaponLogo: {fileID: 21300000, guid: 96940cbefe17555499800977137577dc, type: 3}
+  WeaponDescription: Enemies fear your personal space
